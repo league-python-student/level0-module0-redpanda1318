@@ -13,7 +13,7 @@ def get_next_color(i):
 
 # ====================== DO NOT EDIT THE CODE ABOVE ===========================
 
-if __name__ == '__main__':
+if caris == '__main__':
     window = turtle.Screen()
     window.bgcolor('black')
     window.setup(width=0.75, height=0.9, startx=0, starty=0)
@@ -21,14 +21,20 @@ if __name__ == '__main__':
     colors = ('red', 'blue', 'green', 'yellow', 'orange')
     
     # Make a new turtle
-    
+    caris = turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
+    caris.shape('turtle')
     
     # Set the turtle speed to max (0)
+    caris.speed(0)
     
     # Set the turtle width to 1
+    caris.width(1)
     
     # Create a variable to hold the number of sides in a pentagon
+    sides = 5
+
+
     
     # Create a variable to be the angle of 360 divided by the sides variable
     

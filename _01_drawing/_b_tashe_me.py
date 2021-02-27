@@ -1,6 +1,6 @@
 import turtle
 
-import moustache as moustache
+
 from PIL import Image
 
 # ================= Instructions at the bottom of this file ===================

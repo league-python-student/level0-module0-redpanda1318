@@ -32,34 +32,38 @@ if __name__ == '__main__':
     caris.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-    for i in range():
+    for i in range(25):
         
         # Set the turtle .fillcolor() to orange
-        
+        caris.fillcolor('blue')
         # Call the turtle .begin_fill() function
+        caris.begin_fill()
         
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees
         #                will turn a full circle)
+        caris.right(45)
         
         # DRAW           Move the turtle 64 pixels
+        caris.forward(64)
         
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative
         #                numbers will turn the turtle counter-clockwise.)
+        caris.left(40)
         
         # DRAW FLAME     Move the turtle the distance in the variable flameSize
-        
+        caris.forward(130)
         #                Turn the turtle to the right 170 degrees
-         
+        caris.right(170)
         #                Move the turtle the distance in the variable flameSize (again)
-         
+        caris.forward(130)
         #  TURN RIGHT    Turn the turtle 62 degrees to the right
-        
+        caris.right(62)
         #  DRAW          Move the turtle the distance in the variable baseSize
-        
+        caris.forward(200)
         # Call the turtle .end_fill() method
-        
+        caris.end_fill()
     # Hide your turtle so you can see the pattern.
-        
+        caris.hideturtle()
     # TEST   Run the program. Check that your shape is the same as the first
     #        picture in the recipe. This is one arm of the ninja star.
 

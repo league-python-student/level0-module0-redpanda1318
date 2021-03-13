@@ -9,16 +9,25 @@ if __name__ == '__main__':
 
     # Put this sentence in a pop-up message box:
     # "If you find yourself having to cross a piranha-infested river, here's how to do it..."
+    messagebox.showinfo('Title',"If You Find Yourself having to cross a piranha infested river, here's how to do it ")
+
 
     # Get the player to enter an adjective
+    adjective = simpledialog.askstring(title='Greeter', prompt="Enter an adjective: ")
+
 
     # Get the player to enter a type of liquid
+    liquid = simpledialog.askstring(title='Greeter', prompt="Enter a type of Liquid: " )
+
 
     # Get the player to enter a body part
+    BodyPart= simpledialog.askstring(title='Greeter', prompt="Enter A body part: ")
 
     # Get the player to enter a verb
+    verb= simpledialog.askstring(title='Greeter', prompt="Enter a verb: ")
 
     # Get the player to enter a place
+    place = simpledialog.askstring(title='Greeter', prompt="Enter a place")
 
     # The story below has has been written as a group of Strings joined
     # together by + signs. The story contains place holders, indicated
@@ -28,11 +37,11 @@ if __name__ == '__main__':
     #       other parts of the story.
 
     story = (
-        "Piranhas are more [**adjective**] during the day, so cross the river at\n"
-        "night. Piranhas are attracted to fresh [**type of liquid**] and will most\n"
-        "likely take a bite out of your [**body part**] if you [**verb**]. Whatever\n"
+        "Piranhas are more " + adjective + " during the day, so cross the river at\n"
+        "night. Piranhas are attracted to fresh " + liquid + "and will most\n"
+        "likely take a bite out of your " + BodyPart + " if you " + verb + ". Whatever\n"
         "you do, if you have an open wound, try to find another way to get "
-        "back to the [**place**]. Good luck!"
+        "back to the " + place + ". Good luck!"
     )
 
     # Make a pop-up that contains the final story. The \n escape characters add

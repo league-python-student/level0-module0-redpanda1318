@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # ASK A QUESTION AND CHECK THE ANSWER
 
     #      // 2.  Ask the user a question 
-    questiona = simpledialog.askstring("Do giraffes hum?")
+    questiona = simpledialog.askstring(None, "Do giraffes hum?")
     #      // 3.  Use an if statement to check if their answer is correct
     if questiona == 'yes':
         print("You're right!")
@@ -26,7 +26,7 @@ if __name__ == '__main__':
  
     # MAKE MORE QUESTIONS. Ask more questions by repeating the above 
     #      // Option: Subtract a point from their score for a wrong answer
-    questionb = simpledialog.askstring("Do pigs sweat?")
+    questionb = simpledialog.askstring(None, "Do pigs sweat?")
     if questionb == 'yes':
         print("That's wrong")
 
@@ -34,7 +34,7 @@ if __name__ == '__main__':
         print("You're right!")
         score += 1
 
-    questionc= simpledialog.askstring("Was there ever a cat mayor?")
+    questionc= simpledialog.askstring(None, "Was there ever a cat mayor?")
 
     if questionc == 'yes':
         print("You're right!")
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     if questionc == 'no':
         print("That's wrong")
 
-    questiond = simpledialog.askstring("Can a cloud be a million pounds?")
+    questiond = simpledialog.askstring(None, "Can a cloud be a million pounds?")
 
     if questiond == 'yes':
         print("You're right!")
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     if questiond == 'no':
         print("That's wrong")
 
-    questione = simpledialog.askstring("Are there pink and purple lakes?")
+    questione = simpledialog.askstring(None, "Are there pink and purple lakes?")
 
     if questione == 'yes':
         print("You're right!")
@@ -61,7 +61,7 @@ if __name__ == '__main__':
     if questione == 'no':
         print("That's wrong")
 
-    questionf = simpledialog.askstring("There are less than 100 types of potatos")
+    questionf = simpledialog.askstring(None, "There are less than 100 types of potatos")
 
     if questionf == 'yes':
         print("That's wrong")
